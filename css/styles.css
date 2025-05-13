@@ -456,7 +456,7 @@ h1, h2, h3, h4, h5, h6, p {
     max-width: 100%;
     margin: 0 auto;
     }
-}
+
 @media screen and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
@@ -480,6 +480,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin-right: auto;
     margin-bottom: 48px;
   }
+}
 /* features section */
 .features {
     font-weight: 500;
@@ -702,6 +703,7 @@ text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
+  
 }
 
   @media screen and (max-width: 767px) {
@@ -1371,9 +1373,8 @@ textarea::placeholder {
     }
   
 .label-checked {
-    display: flex;
     align-items: center;
-    justify-content: baseline;
+    
     }
   }
 
