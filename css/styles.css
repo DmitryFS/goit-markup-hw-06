@@ -66,6 +66,19 @@ h1, h2, h3, h4, h5, h6, p {
     }
     
 }
+@media screen and (max-width: 1157px) {
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
 .page-header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -492,12 +505,14 @@ h1, h2, h3, h4, h5, h6, p {
 .features-list .feature-item {
       font-weight: 700;
       font-size: 36px;
+      margin-bottom: 8px;
     }
   }
   
 @media screen and (max-width: 767px) {
 .features-list .feature-item {
       text-align: center;
+      margin-bottom: 8px;
     }
   }
 .visually-hidden {
@@ -716,6 +731,11 @@ text-align: center;
 .portfolio-card {
     max-width: 288px;
     }
+  }
+  .portfolio-item {
+    padding-bottom: 8px;
+  
+    
   }
   @media screen and (max-width: 1157px) {
 .portfolio-div .portfolio-item {
@@ -957,6 +977,12 @@ text-align: center;
 .link-foot {
   background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
 
 .link-foot:hover,
@@ -1091,6 +1117,7 @@ text-align: center;
     display: flex;
     align-items: baseline;
   }
+}
 
 .link-dream-team {
   width: 100%;
@@ -1121,13 +1148,13 @@ text-align: center;
     letter-spacing: 0.04em;
     color: #ffffff;
   }
-}
+
 .icon-team {
   fill: #f4f4fd;
-  
 }
-.
+
   /* modal */
+  
 .backdrop {
     position: fixed;
     top: 0;
